@@ -67,21 +67,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutUs.aspx" />
     <Content Include="CheckUsers.aspx" />
     <Content Include="ClaimResponse.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="HRUsers.aspx" />
     <Content Include="LectureForm.aspx" />
-    <Content Include="ProgramCoordinatorDashboard.aspx" />
+    <Content Include="HRDashboard.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Login.aspx" />
     <Content Include="ManagerDashboard.aspx" />
     <Content Include="LectureDashboard.aspx" />
-    <Content Include="ProViewClaim.aspx" />
+    <Content Include="selectuser.aspx" />
     <Content Include="ViewClaim.aspx" />
-    <Content Include="ViewNewClaims.aspx" />
     <Content Include="ViewResponse.aspx" />
     <Content Include="ViewModules.aspx" />
+    <Content Include="Welcome.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CheckUsers.aspx.cs">
       <DependentUpon>CheckUsers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,6 +105,20 @@
     <Compile Include="ClaimResponse.aspx.designer.cs">
       <DependentUpon>ClaimResponse.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HRUsers.aspx.cs">
+      <DependentUpon>HRUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRUsers.aspx.designer.cs">
+      <DependentUpon>HRUsers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LectureForm.aspx.cs">
       <DependentUpon>LectureForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -103,22 +126,15 @@
     <Compile Include="LectureForm.aspx.designer.cs">
       <DependentUpon>LectureForm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProgramCoordinatorDashboard.aspx.cs">
-      <DependentUpon>ProgramCoordinatorDashboard.aspx</DependentUpon>
+    <Compile Include="HRDashboard.aspx.cs">
+      <DependentUpon>HRDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProgramCoordinatorDashboard.aspx.designer.cs">
-      <DependentUpon>ProgramCoordinatorDashboard.aspx</DependentUpon>
+    <Compile Include="HRDashboard.aspx.designer.cs">
+      <DependentUpon>HRDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManagerDashboard.aspx.cs">
       <DependentUpon>ManagerDashboard.aspx</DependentUpon>
@@ -135,12 +151,12 @@
     <Compile Include="LectureDashboard.aspx.designer.cs">
       <DependentUpon>LectureDashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProViewClaim.aspx.cs">
-      <DependentUpon>ProViewClaim.aspx</DependentUpon>
+    <Compile Include="selectuser.aspx.cs">
+      <DependentUpon>selectuser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProViewClaim.aspx.designer.cs">
-      <DependentUpon>ProViewClaim.aspx</DependentUpon>
+    <Compile Include="selectuser.aspx.designer.cs">
+      <DependentUpon>selectuser.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewClaim.aspx.cs">
       <DependentUpon>ViewClaim.aspx</DependentUpon>
@@ -148,13 +164,6 @@
     </Compile>
     <Compile Include="ViewClaim.aspx.designer.cs">
       <DependentUpon>ViewClaim.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ViewNewClaims.aspx.cs">
-      <DependentUpon>ViewNewClaims.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewNewClaims.aspx.designer.cs">
-      <DependentUpon>ViewNewClaims.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewResponse.aspx.cs">
       <DependentUpon>ViewResponse.aspx</DependentUpon>
@@ -169,6 +178,13 @@
     </Compile>
     <Compile Include="ViewModules.aspx.designer.cs">
       <DependentUpon>ViewModules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

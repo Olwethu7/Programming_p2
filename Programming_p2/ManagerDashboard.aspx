@@ -113,7 +113,7 @@
     <div class="sidebar">
         <a href="ManagerDashboard.aspx">Dashboard Overview</a>
         <a href="CheckUsers.aspx">Check Users</a>
-        <a href="Login.aspx" class="logout">Log Out</a>
+        <a href="Welcome.aspx" class="logout">Log Out</a>
     </div>
 
     <!-- Main Content -->

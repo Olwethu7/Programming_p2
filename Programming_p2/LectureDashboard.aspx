@@ -115,7 +115,7 @@
         <a href="LectureDashboard.aspx">Dashboard Overview</a>
         <a href="ViewResponse.aspx">Track Claims</a>
         <a href="ViewModules.aspx">Manage Modules</a>
-        <a href="Login.aspx" class="logout">Log Out</a>
+        <a href="Welcome.aspx" class="logout">Log Out</a>
         
     </div>
 

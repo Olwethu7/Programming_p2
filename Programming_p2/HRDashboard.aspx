@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProgramCoordinatorDashboard.aspx.cs" Inherits="Part2_Prog.ProgramCoordinatorDashboard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HRDashboard.aspx.cs" Inherits="Part2_Prog.ProgramCoordinatorDashboard" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -105,34 +105,33 @@
     <!-- Header -->
     <div class="header">
         <div class="logo">
-            Program Coordinator Dashboard
+            HR Dashboard
         </div>
     </div>
 
     <!-- Sidebar -->
     <div class="sidebar">
-        <a href="ProgramCoordinatorDashboard.aspx">Dashboard Overview</a>
-        <a href="Login.aspx" class="logout">Log Out</a>
+        <a href="HRDashboard.aspx">Dashboard Overview</a>
+        <a href="Welcome.aspx" class="logout">Log Out</a>
     </div>
 
     <!-- Main Content -->
     <div class="main-content">
-        <h2>Welcome, Program Coordinator</h2>
+        <h2>Welcome, HR</h2>
         <div class="card">
             <p class="description">
-               As a Program Coordinator, you play a crucial role in overseeing the academic programs and
-                ensuring their smooth operation. This dashboard empowers you to efficiently manage user accounts,
-                respond to appeals, and facilitate communication between lecturers and students. With quick access
-                to essential tools, you can monitor new claims, track user activities, and maintain a well-organized
-                system that supports both faculty and student needs. Your leadership and coordination are vital in
-                fostering an effective learning environment, enabling you to address challenges proactively and
-                enhance the educational experience for all involved
+               As an HR Manager, you play a vital role in fostering a positive workplace culture and 
+                supporting the well-being of every team member. This dashboard empowers you to efficiently 
+                manage employee records, oversee recruitment processes, and facilitate smooth communication
+                across departments. With quick access to essential tools, you can monitor new applications,
+                track employee performance, and ensure compliance with company policies. Your leadership and dedication are key to creating a thriving work environment, 
+                enabling you to proactively address challenges and enhance the overall employee experience.
             </p>
         </div>
 
         <!-- Action Button -->
         <div>
-            <button class="button" onclick="location.href='ProViewClaim.aspx'">View New Claims</button>
+            <button class="button" onclick="location.href='HRUsers.aspx'">Manage Users</button>
         </div>
     </div>
 </body>
