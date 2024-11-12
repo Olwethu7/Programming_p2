@@ -71,7 +71,7 @@ namespace Part2_Prog
                 cmd.Parameters.AddWithValue("@Rate", Convert.ToDecimal(txtRate.Text));
                 cmd.Parameters.AddWithValue("@TotalClaimed", Convert.ToDecimal(txtTotalClaimed.Text));
                 cmd.Parameters.AddWithValue("@AttachFilePath", filePath);
-
+                
                 try
                 {
                     // Open the connection and execute the insert command
