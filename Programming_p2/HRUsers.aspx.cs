@@ -75,7 +75,7 @@ namespace YourNamespace
                 cmd.Parameters.AddWithValue("@Username", txtUsername.Text);
                 cmd.Parameters.AddWithValue("@UserType", txtUserType.Text);
                 cmd.Parameters.AddWithValue("@UserId", userId);
-
+                
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 conn.Close();
