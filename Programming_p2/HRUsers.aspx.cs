@@ -82,6 +82,7 @@ namespace YourNamespace
             }
 
             GridViewUsers.EditIndex = -1;
+
             LoadUsers();
         }
 
