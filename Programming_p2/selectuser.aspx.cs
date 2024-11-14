@@ -21,7 +21,7 @@ namespace Part2_Prog
             // Redirect to Manager Dashboard
             Response.Redirect("ManagerDashboard.aspx");
         }
-
+        
         protected void btnHR_Click(object sender, EventArgs e)
         {
             // Redirect to HR Dashboard
