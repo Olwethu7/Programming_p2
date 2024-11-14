@@ -21,7 +21,7 @@
             top: 0;
             z-index: 1000;
         }
-
+        
         /* Main content */
         .main-content {
             margin-top: 60px; /* Adjusted for header height */
