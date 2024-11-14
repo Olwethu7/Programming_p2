@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
         }
-
+        
         /* Header styling */
         .header {
             background-color: #2c3e50;
