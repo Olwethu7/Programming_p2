@@ -80,7 +80,7 @@ namespace Part2_Prog
 
                     // Clear the input fields after successful submission
                     ClearInputFields();
-
+                    
                     // Call JavaScript function to show success message
                     ScriptManager.RegisterStartupScript(this, GetType(), "showalert", "showAlert('Claim submitted successfully!');", true);
                 }
