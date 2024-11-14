@@ -105,7 +105,6 @@
             cursor: pointer;
             margin-right: 5px;
             width:30%;
-           
         }
 
         .approve-button {
@@ -156,10 +155,6 @@
                 <asp:TextBox ID="txtUsername" runat="server" CssClass="form-group"></asp:TextBox>
             </div>
             <div class="form-group">
-                <label for="txtPassword">Password:</label>
-                <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-group"></asp:TextBox>
-            </div>
-            <div class="form-group">
                 <label for="txtUserType">User Type:</label>
                 <asp:TextBox ID="txtUserType" runat="server" CssClass="form-group"></asp:TextBox>
             </div>
@@ -177,7 +172,6 @@
                                 <asp:Button ID="btnEdit" runat="server" Text="Edit" CommandName="Edit" CssClass="edit-button" OnClientClick="return confirmAction('Edit');" />
                                 <asp:Button ID="btnUpdate" runat="server" Text="Update" CommandName="Update" CssClass="update-button" OnClientClick="return confirmAction('Update');" />
                                 <asp:Button ID="btnDelete" runat="server" Text="Delete" CommandName="Delete" CssClass="delete-button" OnClientClick="return confirmAction('Delete');" />
-                                
                             </div>
                         </ItemTemplate>
                     </asp:TemplateField>
